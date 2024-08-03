@@ -1,0 +1,42 @@
+.menu-list {
+  animation: fadeInUpMenuHorizontal 0.3s ease-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  border-radius: 8px;
+  position: absolute;
+  text-transform: capitalize;
+  min-width: 150px;
+  background-color: white;
+  margin-top: 4px;
+  z-index: 1;
+  transform: translateY(10px);
+}
+.menu-icon {
+  animation: fadeInUpMenuVertical 0.3s ease-out;
+  right: 0;
+  max-height: 85vh;
+  overflow: auto;
+  transform: translateY(0);
+}
+
+@keyframes fadeInUpMenuHorizontal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(10px);
+  }
+}
+
+@keyframes fadeInUpMenuVertical {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

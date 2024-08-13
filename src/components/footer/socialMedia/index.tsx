@@ -23,7 +23,7 @@ export default function FooterSocialMedia({
           rel="noopener noreferrer"
         >
           <Image
-            src="/socialMedia/tiktok.png"
+            src="/tiktok.png"
             alt="TIKTOK FASHION"
             width={30}
             height={30}
@@ -36,7 +36,7 @@ export default function FooterSocialMedia({
           rel="noopener noreferrer"
         >
           <Image
-            src="/socialMedia/instagram.png"
+            src="/instagram.png"
             alt="INSTAGRAM FASHION"
             width={30}
             height={30}
@@ -48,12 +48,7 @@ export default function FooterSocialMedia({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Image
-            src="/socialMedia/zalo.png"
-            alt="ZALO FASHION"
-            width={30}
-            height={30}
-          />
+          <Image src="/zalo.png" alt="ZALO FASHION" width={30} height={30} />
         </a>
       </div>
     </div>

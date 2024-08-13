@@ -77,7 +77,7 @@ export default function Header() {
   ];
 
   return (
-    <div className="w-full bg-[#fafafa] border-b border-[#f5f5f5] sticky top-0 z-10">
+    <div className="w-full bg-white border-b border-[#f5f5f5] sticky top-0 z-40 shadow-[0px_2px_8px_rgba(0,0,0,0.15)]">
       <div className="relative min-h-[60px] flex flex-wrap items-center justify-between gap-4 p-2 px-4">
         <HeaderTitle title="Fashion" />
         <div className="flex flex-wrap items-center gap-8 cursor-pointer">

@@ -6,7 +6,7 @@ import Footer from "@/components/footer/index";
 
 export const metadata: Metadata = {
   title: "Fashion",
-  icons: "/instagram.png",
+  icons: "/socialMedia/instagram.png",
 };
 
 export default function RootLayout({
